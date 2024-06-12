@@ -1,7 +1,11 @@
 const component = () => {
-  const obj = {};
+  const obj = { name: "이종수", lv: 999, job: "어쌔신" };
 
   const innerFunc = () => {};
 
-  return `some string`;
+  return `
+        <h1>${obj.name}</h1>
+        `;
 };
+
+console.log(component());
