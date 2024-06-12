@@ -4,4 +4,13 @@ const basicData = {
   job: "",
 };
 
-const component = () => {};
+const component = () => {
+  const obj = {};
+
+  const decision = () => {
+    return `
+            <html>
+            </html>
+            `;
+  };
+};
